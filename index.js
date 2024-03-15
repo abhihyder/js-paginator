@@ -55,7 +55,7 @@ function paginate() {
     params.limit = Math.max(parseInt(params.limit) || 10, 1);
     totalPages = Math.max(
       Math.ceil(parseInt(params.totalItem) / parseInt(params.limit)),
-      0
+      1
     );
     params.currentPage = Math.min(
       Math.max(parseInt(params.currentPage), 1),

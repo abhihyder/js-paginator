@@ -1,0 +1,21 @@
+{
+  "name": "js-paginator",
+  "version": "1.0.0",
+  "description": "A versatile JavaScript pagination utility for simplifying pagination implementation in JavaScript applications. Supports customizable pagination links, first and last page navigation, and easy integration with various JavaScript frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pagination",
+    "paginator",
+    "js",
+    "javascript",
+    "utility"
+  ],
+  "author": {
+    "name": "Tofayel Hyder Abhi",
+    "email": "tofayelhyder71@gmail.com"
+  },
+  "license": "MIT"
+}

@@ -30,7 +30,7 @@ function paginate() {
     const response = {
       currentPage: params.currentPage,
       totalPages: totalPages,
-      from: (params.currentPage - 1) * params.limit + 1,
+      from: params.totalItem > 0 ? (params.currentPage - 1) * params.limit + 1 : 0,
       to: Math.min(params.currentPage * params.limit, params.totalItem),
       totalItem: params.totalItem,
       links: {

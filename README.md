@@ -1,6 +1,6 @@
-# js-paginator
+# JS Pagination Crafter
 
-**js-paginator** is a lightweight utility for simplifying pagination in JavaScript applications. Whether you're working with APIs or databases, js-paginator provides a straightforward way to generate pagination links and manage pagination logic.
+**js-pagination-crafter** is a lightweight utility for simplifying pagination in JavaScript applications. Whether you're working with APIs or databases, js-pagination-crafter provides a straightforward way to generate pagination links and manage pagination logic.
 
 ## Features
 
@@ -12,10 +12,10 @@
 
 ## Installation
 
-You can install **js-paginator** via npm. Navigate to your project directory and run:
+You can install **js-pagination-crafter** via npm. Navigate to your project directory and run:
 
 ```bash
-npm install js-paginator
+npm i js-pagination-crafter
 ```
 
 ## Usage
@@ -23,9 +23,9 @@ npm install js-paginator
 ### Basic Usage
 
 ```javascript
-const paginator = require("js-paginator");
+const paginator = require("js-pagination-crafter");
 // Or
-import paginator from "js-paginator";
+import paginator from "js-pagination-crafter";
 
 // Get pagination data
 const pagination = paginator({

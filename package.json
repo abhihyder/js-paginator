@@ -1,6 +1,6 @@
 {
-  "name": "js-paginator",
-  "version": "1.0.1",
+  "name": "js-pagination-crafter",
+  "version": "1.0.2",
   "description": "A versatile JavaScript pagination utility for simplifying pagination implementation in JavaScript applications. Supports customizable pagination links, first and last page navigation, and easy integration with various JavaScript frameworks.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "keywords": [
     "pagination",
     "paginator",
+    "paginate",
     "js",
     "javascript",
     "utility"

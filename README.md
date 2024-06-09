@@ -1,6 +1,6 @@
-# JS Pagination Crafter
+# JS Paginator
 
-**js-pagination-crafter** is a lightweight utility for simplifying pagination in JavaScript applications. Whether you're working with APIs or databases, js-pagination-crafter provides a straightforward way to generate pagination links and manage pagination logic.
+**js-paginator** is a lightweight utility for simplifying pagination in JavaScript applications. Whether you're working with APIs or databases, `js-paginator` provides a straightforward way to generate pagination links and manage pagination logic.
 
 ## Features
 
@@ -12,10 +12,10 @@
 
 ## Installation
 
-You can install **js-pagination-crafter** via npm. Navigate to your project directory and run:
+You can install **js-paginator** via npm. Navigate to your project directory and run:
 
 ```bash
-npm i js-pagination-crafter
+npm i @abhihyder/js-paginator
 ```
 
 ## Usage
@@ -23,9 +23,9 @@ npm i js-pagination-crafter
 ### Basic Usage
 
 ```javascript
-const paginator = require("js-pagination-crafter");
+const paginator = require("@abhihyder/js-paginator");
 // Or
-import paginator from "js-pagination-crafter";
+import paginator from "@abhihyder/js-paginator";
 
 // Get pagination data
 const pagination = paginator({
@@ -77,10 +77,6 @@ console.log(pagination);
     {
       "page": 11,
       "url": "https://example.com/api/items?page=11&limit=10"
-    },
-    {
-      "page": 12,
-      "url": "https://example.com/api/items?page=12&limit=10"
     },
     {
       "page": "...",
@@ -160,10 +156,6 @@ console.log(pagination);
     {
       "page": 11,
       "url": "https://example.com/api/items?page=11&limit=10&name=javascript&category=books"
-    },
-    {
-      "page": 12,
-      "url": "https://example.com/api/items?page=12&limit=10&name=javascript&category=books"
     },
     {
       "page": "...",

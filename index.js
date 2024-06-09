@@ -120,7 +120,7 @@ function paginate() {
     const adjacentPages = 3;
 
     const secondSlotStart = Math.max(params.currentPage - adjacentPages, 1);
-    const secondSlotEnd = Math.min(params.currentPage + 2, totalPages);
+    const secondSlotEnd = Math.min(params.currentPage + 1, totalPages);
 
     const thirdSlotStart = totalPages - adjacentPages;
     const thirdSlotEnd = totalPages;

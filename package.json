@@ -1,6 +1,6 @@
 {
-  "name": "js-pagination-crafter",
-  "version": "1.0.2",
+  "name": "@abhihyder/js-paginator",
+  "version": "1.0.0",
   "description": "A versatile JavaScript pagination utility for simplifying pagination implementation in JavaScript applications. Supports customizable pagination links, first and last page navigation, and easy integration with various JavaScript frameworks.",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,10 @@
   "author": {
     "name": "Tofayel Hyder Abhi",
     "email": "tofayelhyder71@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhihyder/js-paginator.git"
   },
   "license": "MIT"
 }

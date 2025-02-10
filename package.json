@@ -1,13 +1,14 @@
 {
   "name": "@abhihyder/js-paginator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A versatile JavaScript pagination utility for simplifying pagination implementation in JavaScript applications.",
   "main": "src/index.cjs",
   "module": "src/index.mjs",
   "types": "src/index.d.ts",
   "exports": {
     "import": "./src/index.mjs",
-    "require": "./src/index.cjs"
+    "require": "./src/index.cjs",
+    "types": "./src/index.d.ts"
   },
   "scripts": {
     "build": "tsc",
